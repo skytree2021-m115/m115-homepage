@@ -4,14 +4,15 @@ h1 {
     border-top: solid 2px black;
     border-bottom: solid 2px black;
     background-color: white;
-h1:before, h1:after {
+}
+h1:before, h1:after{
     content: '';
     position: absolute;
     top: -7px;
     width: 2px;
     height: -webkit-calc(100% + 14px);
     height: calc(100% + 14px);
-    background-color: black;
+    background-color: black
 }
 h1:before {
     left: 7px;
@@ -20,7 +21,7 @@ h1:after {
     right: 7px;
 }
 body{
-    background-color: #f0fafa;
+    background-color: #b4b4c8;
 }
 .main{
     width: 90%;
